@@ -40,6 +40,8 @@ sortedVectors = smart.genetic.geneticSort(5, 100, Population1, Population2);
 ### Additional Help
 For additional help for each of the following functions, type `help smart.genetic.<function>` in the command window.
 
+Note that the `+genetic` package is contained within the `+smart` package for compatibility with other repositories, since they may contain other subpackages of the larger `+smart` package which rely on `+genetic` package functions. These other subpackages may be pasted in the `+smart` folder to add their respective functionality, though they will generally already contain all dependencies when cloned. For the same reason, the `+general` package may contain functions that are currently unused.
+
 ### Member Functions
 | Function | Purpose |
 | --- | --- |
